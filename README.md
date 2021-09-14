@@ -1,4 +1,4 @@
-# challenge-ventur
+# challenge-venturing
 
 El contenido del proyecto se encuentra en la rama master. Para correr el proyecto por el lado del backend, que se encuentra en el directorio llamado "Node JS", en la linea 16 del archivo app.js se debe ingresar la contraseña propia para MySQL. Luego, escribir en la terminal, el comando "node .". 
 

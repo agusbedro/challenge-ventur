@@ -13,14 +13,12 @@ const mysql = require('mysql');
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'password',
+    password: '',
     database: 'db_challenge_venturing'
 });
 
 const PORT = process.env.PORT || 3050;
 
-//Route
-//endpoint to get all movies
 app.get('/movies', (request, response) => {
     const sql = 'SELECT * FROM movies';
     connection.query(sql, (error, result)=>{
@@ -99,4 +97,4 @@ connection.connect(error => {
     console.log('Database server running!');
 });
 
-app.listen(PORT, ()=>console.log(`Server running on PORT ${PORT}`));
+app.listen(PORT, () =>console.log(`Server running on PORT ${PORT}`));

@@ -8,7 +8,6 @@ import buscador from './search.png';
 
 function App() {
 
-  //paginacion
   const [pageNumber, setPageNumber] = useState(0);
 
   const [busqueda, setBusqueda] = useState("");

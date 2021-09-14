@@ -1,0 +1,20 @@
+BACKEND: 
+	-obtener todas las peliculas	LISTO
+	-buscar pelicula por nombre		LISTO
+	-insertar una pelicula			LISTO
+	-modificar						LISTO
+	-eliminar						LISTO
+	-obtener pelicula por id 		LISTO
+	PENDIENTES:
+	-insertar una lista de peliculas archivo csv
+
+FRONTED(3 pantallas): 
+	-pantalla de agregar y editar un registro de peliculas		LISTO
+	-pantalla de listdo de peliculas							LISTO
+	-LISTADO ->paginador										LISTO
+	-LISTADO -> buscador		LISTO ??? bug -> cuando se elimina no vuelve atras la busqueda
+
+	PENDIENTES:
+	-Pantalla de subida de arhcivos csv con el formato propuesto
+			
+		
